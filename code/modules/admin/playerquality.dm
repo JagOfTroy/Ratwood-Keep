@@ -10,7 +10,7 @@
 	if(json[ckey(key)])
 		the_pq = json[ckey(key)]
 	if(!the_pq)
-		the_pq = 0
+		the_pq = 100
 	if(!text)
 		return the_pq
 	else
